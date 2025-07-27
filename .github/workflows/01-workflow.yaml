@@ -12,6 +12,10 @@ jobs:
         steps:
             - name: Say Good bye
               run:  echo Good Bye
+            - name: Failed step
+              run: |
+                echo Hi How are you?
+                exit 1
             
             - name: list directory
               run: ls 
