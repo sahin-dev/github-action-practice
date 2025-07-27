@@ -1,4 +1,6 @@
 name: 02 - workflow events
+run-name: Run By ${{github.actor}}
+
 on: 
     push: 
     pull_request:
