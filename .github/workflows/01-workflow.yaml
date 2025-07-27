@@ -17,6 +17,8 @@ jobs:
               run: |
                 echo Hi How are you?
                 exit 0
+            - name: Create a tect file
+              run: touch file.txt
             
             - name: list directory
               run: ls 
